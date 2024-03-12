@@ -1,0 +1,40 @@
+.userID-title{
+    position: relative;
+}
+
+.avatar-container_a{
+    position: relative;
+    width: 380px;
+    left: 900px;
+    top: -500px;
+}
+
+.avatar {
+    position: relative;
+    width: 380px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+.change-avatar {
+    position: relative;
+    width: 380px;
+}
+
+.message-container {
+    position: relative;
+    margin: 5px;
+    width: 630px;
+}
+
+.message-container h1{
+    position: relative;
+    margin: 5px;
+    top:  2px;
+}
+
+/* .is_edit {
+    position: absolute;
+} */

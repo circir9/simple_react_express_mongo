@@ -1,0 +1,117 @@
+.g-page {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+    font-size: 0;
+}
+
+.g-page .activePage {
+    background-color: #009688;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.g-page .activePage:hover {
+    color: #fff;
+}
+
+.g-page .noActivePage {
+    background-color: #fff;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.g-page .noActivePage:hover {
+    color: #009688;
+}
+
+.g-page .ellipsis {
+    background-color: #fff;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+}
+
+.g-page .previousPage {
+    background-color: #fff;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.g-page .previousPage:hover {
+    color: #009688;
+}
+
+.g-page .noPreviousPage {
+    background-color: #fff;
+    color: #666666;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+}
+
+.g-page .nextPage {
+    background-color: #fff;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.g-page .nextPage:hover {
+    color: #009688;
+}
+
+.g-page .noNextPage {
+    background-color: #fff;
+    color: #666666;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 -1px 5px 0;
+    font-size: 12px;
+    border: 1px solid #e2e2e2;
+}

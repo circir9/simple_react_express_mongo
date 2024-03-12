@@ -1,0 +1,81 @@
+.center-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  }
+
+.title{
+  font-size: 24px;
+  margin-bottom: 130px;
+  }
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-content-scroll {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #dedede;
+  }
+  
+  /* 捲軸底 */
+  .center-content-scroll::-webkit-scrollbar-track {
+    background-color: #cdcdcd73;
+    box-shadow: inset 0px 0px 3px #9b9b9b;
+  }
+  
+  /* 捲軸寬度 */
+  .center-content-scroll::-webkit-scrollbar {
+    overflow: visible;
+    width: 8px;
+  }
+  
+  /* 捲軸本體(正常) */
+  .center-content-scroll::-webkit-scrollbar-thumb {
+    background: #18a253;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+  }
+  
+  /* 捲軸本體(游標接觸) */
+  .center-content-scroll::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  }
+  
+  /* 捲軸本體(游標點擊) */
+  .center-content-scroll::-webkit-scrollbar-thumb:active {
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.65);
+  }
+  
+  /* 捲軸上下按鈕 */
+  .center-content-scroll::-webkit-scrollbar-button:single-button {
+    background: #bbbbbb;
+    display: block;
+    border-style: solid;
+    height: 8px;
+  }
+  
+  /* 捲軸往上按鈕 */
+  .center-content-scroll::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-width: 0 4px 4px 4px;
+    border-color: transparent transparent #555 transparent;
+  }
+  .center-content-scroll::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+    border-color: transparent transparent #777 transparent;
+  }
+  
+  /* 捲軸往下按鈕 */
+  .center-content-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-width: 4px 4px 0 4px;
+    border-color: #555 transparent transparent transparent;
+  }
+  .center-content-scroll::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+    border-color: #777 transparent transparent transparent;
+  }

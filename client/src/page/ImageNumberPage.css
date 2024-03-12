@@ -1,0 +1,38 @@
+.pagination {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 10px;
+  left: 96%;
+}
+
+.image-area-title{
+  display: flex;
+  justify-content: center;
+}
+  
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-height: 1100px;
+  overflow-y: auto;
+}
+  
+.image-item {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

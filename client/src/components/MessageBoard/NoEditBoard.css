@@ -1,0 +1,15 @@
+.no-input-board-container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .no-input-board {
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
+  }

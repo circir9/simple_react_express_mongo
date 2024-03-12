@@ -1,0 +1,49 @@
+.input-board-container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .input-board {
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
+  }
+  
+  .input-board-editing {
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
+    resize: none;
+  }
+
+  .board-and-btn {
+    margin: 2px;
+    width: 610px;
+  }
+
+  .board-and-btn button {
+    margin: 2px;
+    width: 600px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #3541f0;
+    color: #FFFFFF;
+    border: none;
+  }
+
+  .board-and-btn button:active {
+    margin: 2px;
+    width: 600px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #1320d1;
+    color: #FFFFFF;
+    border: none;
+    opacity: 0.5;
+  }
