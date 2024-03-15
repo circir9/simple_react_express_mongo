@@ -55,7 +55,7 @@ class MessageBoard extends Component {
           <div className='board-and-btn'>
             <div className='input-board-container'>
               <div className="input-board" onDoubleClick={this.handleDoubleClick}>
-                <pre>{message}</pre>
+              {message? (<pre>{message}</pre>) : (<pre>    </pre>)}
               </div>
             </div>
           </div>
