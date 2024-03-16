@@ -27,12 +27,18 @@ class MessageBoard extends Component {
   handleEditSubmit = () => {
     const { editText } = this.state;
     const { CallbackFn } = this.props;
+    const { LimitStateFn } = this.props;
 
-    CallbackFn(editText);
-    this.setState({
-      message: editText,
-      isEditing: false
-    });
+    if(LimitStateFn){
+      LimitStateFn(this);
+    }
+    else{
+      CallbackFn(editText);
+      this.setState({
+        message: editText,
+        isEditing: false
+      });
+    }
   };
 
   render() {
