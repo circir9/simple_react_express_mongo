@@ -55,7 +55,7 @@ const ProjectFilePage = () => {
     <div>
       <h1>文件上傳下載</h1>
       <form onSubmit={handleUpload}>
-        <input type="file" name="file" id="project-image-file"/>
+        <input type="file" name="file" accept="image/png, image/jpeg" id="project-image-file"/>
         <input type="submit" value="上傳" />
       </form>
       <div>
